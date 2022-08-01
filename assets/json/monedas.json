@@ -1,0 +1,26 @@
+[
+    {
+      "Codigo": "USD",
+      "Nombre": "Dolar Americano",
+      "Valor": "920.49",
+      "Simbolo": "$"
+    },
+    {
+      "Codigo": "EUR",
+      "Nombre": "Euro",
+      "Valor": "930.92",
+      "Simbolo": "€"
+    },
+    {
+      "Codigo": "UTM",
+      "Nombre": "Unidad Tributaria Mensual",
+      "Valor": "58248.00",
+      "Simbolo": "$"
+    },
+    {
+      "Codigo": "UF",
+      "Nombre": "Unidad de Fomento",
+      "Valor": "33388.30",
+      "Simbolo": "UF"
+    }
+]

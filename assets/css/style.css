@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-align: center;
+    display: flex;
+
+}
+/*--encabezado--*/
+.container {
+    background-color: rgb(26, 49, 107);
+    width: 30rem;
+    height: 29rem;
+    margin: 1.5rem 1.5rem;
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+} 
+h2{
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+    color: white;
+    text-align: center;
+}
+hr{
+    width: 93%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*--inputs y resultado--*/
+.container__section {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    background-color: rgb(65, 89, 149);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+    }
+h3 {
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#input-clp {
+    width: 68%;
+    height: 2.2rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.moneda_txt {
+    color: white;
+    margin: 1.5rem 0 1rem 0;
+    font-size: 1.1rem;
+}
+.select-moneda {
+    width: 68%;
+    height: 2rem;
+    text-align: center;
+    border-radius: 5px;
+}
+option {
+    color: black;
+}
+.btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:rgb(100, 205, 237);
+    color: white;
+    border-radius: 5px;
+    width: 40%;
+    height: 2.2rem;
+    text-align: center;
+    border: 0;
+    font-size: 1rem;
+}
+.resultado {
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+/*--grafico--*/
+#myChart {
+    background-color: rgb(26, 49, 107);
+    width: 600px;
+    height: 400px;
+    margin-top: 3.5rem;
+    border-radius: 0.5rem;
+    }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Raleway:wght@200;400;700&family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <!--encabezado-->
+      <div class="container__titulo">
+        <hr />
+        <h2>Conversor de monedas Nacional</h2>
+        <hr />
+      </div>
+      <!--inputs y resultados-->
+      <section class="container__section">
+        <h3>Pesos CLP</h3>
+        <input
+          type="number"
+          id="input-clp"
+          name="monto"
+          min="1"
+          placeholder="Ingrese el monto en CLP"
+        />
+
+        <p class="moneda_txt">Moneda a convertir:</p>
+        <select id="tipo-moneda" class="select-moneda" ;>
+          <!--options con tipo de monedas(4)-->
+        </select>
+
+        <button class="btn" type="button" id="btn-buscar"><b>Buscar</b></button>
+        <div class="resultado"><span id="result">...</span></div>
+      </section>
+
+    <!--grafico-->
+    </main>
+    <section class="container-grafico" id="input-grafico">
+      <canvas id="myChart" width="600" height="400" > </canvas>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
